@@ -36,8 +36,3 @@ const updateScore = str => {
 const advanceRound = currentRoundNumber => {
     return currentRoundNumber += 1;
 }
-
-updateScore('human');
-console.log(humanScore); // To confirm that this value increased by 1
-updateScore('computer');
-console.log(computerScore); // To confirm that this value increased by 1
