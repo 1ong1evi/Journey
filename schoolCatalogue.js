@@ -28,7 +28,7 @@ class School {
       return substituteTeachers[rand];
     }
 }
-  class PrimarySchool extends School {
+class PrimarySchool extends School {
     constructor(name, numberOfStudents, pickupPolicy) {
       super(name, 'primary', numberOfStudents);
       this._pickupPolicy = pickupPolicy;
@@ -36,8 +36,8 @@ class School {
     get pickupPolicy() {
       return this._pickupPolicy;
     }
-  }
-  class HighSchool extends School {
+}
+class HighSchool extends School {
     constructor(name, numberOfStudents, sportsTeams) {
       super(name, 'high', numberOfStudents);
       this._sportsTeams = sportsTeams;
@@ -45,12 +45,12 @@ class School {
     get sportsTeams() {
       return this._sportsTeams;
     }
-  }
-  class MiddleSchool extends School {
+}
+class MiddleSchool extends School {
     constructor(name, numberOfStudents) {
       super(name, 'middle', numberOfStudents);
     }
-  }
+}
 //PrimarySchool instance
 const lorraineHansbury = new PrimarySchool('Lorraine Hansbury', 514, 'Students must be picked up by a parent, guardian, or a family member over the age of 13.');
 lorraineHansbury.quickFacts();
