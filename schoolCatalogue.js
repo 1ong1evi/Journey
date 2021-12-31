@@ -21,22 +21,22 @@ class School {
       }
     }
     quickFacts() {
-        console.log(`${this._name} educates ${this._numberOfStudents} students at the ${this._level} school level.`);
+      console.log(`${this._name} educates ${this._numberOfStudents} students at the ${this._level} school level.`);
     }
     static pickSubstituteTeacher(substituteTeachers) {
-        const rand = Math.floor(Math.random() * substituteTeachers.length);
-        return substituteTeachers[rand];
+      const rand = Math.floor(Math.random() * substituteTeachers.length);
+      return substituteTeachers[rand];
     }
 }
-class PrimarySchool extends School {
-  constructor(name, numberOfStudents, pickupPolicy) {
-    super(name, 'primary', numberOfStudents);
-    this._pickupPolicy = pickupPolicy;
+  class PrimarySchool extends School {
+    constructor(name, numberOfStudents, pickupPolicy) {
+      super(name, 'primary', numberOfStudents);
+      this._pickupPolicy = pickupPolicy;
+    }
+    get pickupPolicy() {
+      return this._pickupPolicy;
+    }
   }
-  get pickupPolicy() {
-    return this._pickupPolicy;
-  }
-}
   class HighSchool extends School {
     constructor(name, numberOfStudents, sportsTeams) {
       super(name, 'high', numberOfStudents);
