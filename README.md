@@ -9,5 +9,5 @@ Here you will find projects I will work on while sharpening my skills.
 - Lodash library practice
 - Build a library
 - School catalouge
-
-Have a wonderful day! :)
+- Find Your Hat
+  Have a wonderful day! :)
