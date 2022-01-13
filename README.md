@@ -14,5 +14,6 @@ Here you will find projects I will work on while sharpening my skills.
 
 - Dates and switches
 - FizzBuzz
+- Anagram Finder
 
   Have a wonderful day! :)
