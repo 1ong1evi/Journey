@@ -6,6 +6,7 @@ int main()
 
     for (i = 1; i <= 100; i++)
     {
+        // checks for 15 before other iterations
         if (i % 3 == 0 && i % 5 == 0)
         {
             printf("FizzBuzz\n");
