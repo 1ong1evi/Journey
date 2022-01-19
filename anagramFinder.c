@@ -5,6 +5,7 @@ int main()
     int counter1[] = {0, 0, 0, 0};
     int counter2[] = {0, 0, 0, 0};
     int flag = 0;
+    // s1 and s2 the strings we compare to see if they are in fact an anagram
     char s1[] = "dbb cccccaacb cdbababdcdcdab dcdad";
     char s2[] = "bbbcc bdddccccad cdbbaaacaccdabdd";
     for (int i = 0; i < strlen(s1); i++)
