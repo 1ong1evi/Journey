@@ -19,7 +19,7 @@ int main(void)
         free(list);
         return 1;
     }
-    /*using realloc instead of malloc on line 16 we do not need this,
+    /*using realloc instead of malloc on line 16 we do not need this
     which is the process of allocating the new malloc memory tmp into the list malloc size array*/
     // for (int i = 0; i < 3; i++)
     //{
