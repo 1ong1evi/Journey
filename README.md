@@ -18,3 +18,4 @@ Here you will find projects I will work on while sharpening my skills.
 - Mini-Calendar
 - Array Inserting
 - Race Simulator
+- Hardcoded Linked List
