@@ -10,7 +10,7 @@ typedef struct node
 int main(void)
 {
     node *list = NULL;
-
+    // inserts one link at a time
     node *n = malloc(sizeof(node));
     if (n == NULL)
     {
@@ -19,7 +19,7 @@ int main(void)
     n->number = 1;
     n->next = NULL;
     list = n;
-
+    // second insert
     n = malloc(sizeof(node));
     if (n == NULL)
     {
@@ -29,7 +29,7 @@ int main(void)
     n->number = 2;
     n->next = NULL;
     list->next = n;
-
+    // third insert
     n = malloc(sizeof(node));
     if (n == NULL)
     {
@@ -40,7 +40,7 @@ int main(void)
     n->number = 3;
     n->next = NULL;
     list->next->next = n;
-
+    // looping through them to print
     for (node *tmp = list; tmp != NULL; tmp = tmp->next)
     {
         printf("%i\n", tmp->number);
