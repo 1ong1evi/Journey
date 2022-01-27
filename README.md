@@ -19,3 +19,4 @@ Here you will find projects I will work on while sharpening my skills.
 - Array Inserting
 - Race Simulator
 - Hardcoded Linked List
+- Linked List
