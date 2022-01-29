@@ -12,7 +12,7 @@ int main(void)
     list[0] = 1;
     list[1] = 2;
     list[2] = 3;
-    // changed malloc to realloc and the list comma
+    // changed malloc to realloc and added the list comma
     int *tmp = realloc(list, 4 * sizeof(int));
     if (tmp == NULL)
     {

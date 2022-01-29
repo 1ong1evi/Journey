@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-// linked list not hardcoded
+// linked list not hardcodedw
 struct node
 {
     int value;
