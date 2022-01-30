@@ -20,3 +20,4 @@ Here you will find projects I will work on while sharpening my skills.
 - Race Simulator
 - Hardcoded Linked List
 - Linked List
+- Tree
