@@ -55,21 +55,23 @@ void printtree(treenode *root)
 {
     printtree_rec(root, 0);
 }
+
 int main()
 {
+    // creating nodes n1 through n5
     treenode *n1 = createnode(10);
     treenode *n2 = createnode(11);
     treenode *n3 = createnode(12);
     treenode *n4 = createnode(13);
     treenode *n5 = createnode(14);
-
+    // building the tree
     n1->left = n2;
     n1->right = n3;
     n3->left = n4;
     n3->right = n5;
 
     printtree(n1);
-
+    // free memory
     free(n1);
     free(n2);
     free(n3);
