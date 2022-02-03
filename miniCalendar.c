@@ -5,6 +5,7 @@ bool is_leap_year(int year)
 {
     return (year % 4 == 0 && (year % 100 || year % 400 == 0));
 }
+// checks for the days in each month starting the index with 0 so 1 is the first month
 int days_in_month[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
 void add_days_to_date(int *mm, int *dd, int *yy, int days_left_to_add)
