@@ -55,6 +55,7 @@ void updateRaceCar(struct RaceCar *raceCar)
 }
 void updateFirstPlace(struct Race *race, struct RaceCar *raceCar1, struct RaceCar *raceCar2)
 {
+    // checks to see who should be in first and allocates that to the pointers firstPlaceDriverName and firstPlaceDriverColor
     if (raceCar1->totalLapTime <= raceCar2->totalLapTime)
     {
         strcpy(race->firstPlaceDriverName, raceCar1->driverName);
