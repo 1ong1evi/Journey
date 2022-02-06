@@ -27,7 +27,7 @@ void printtabs(int numtabs)
         printf("\t");
     }
 }
-
+// prints the tree and showcases how the tree looks
 void printtree_rec(treenode *root, int level)
 {
     if (root == NULL)
