@@ -19,7 +19,7 @@ treenode *createnode(int value)
     }
     return result;
 }
-
+// makes a tab for each edge
 void printtabs(int numtabs)
 {
     for (int i = 0; i < numtabs; i++)
