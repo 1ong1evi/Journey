@@ -38,14 +38,15 @@ void printtree_rec(treenode *root, int level)
         return;
     }
     printtabs(level);
+    // print the value of the edge
     printf("value = %d\n", root->value);
     printtabs(level);
     printf("left\n");
-
+    // print the value of the edge
     printtree_rec(root->left, level + 1);
     printtabs(level);
     printf("right\n");
-
+    // print the value of the edge
     printtree_rec(root->right, level + 1);
 
     printtabs(level);
