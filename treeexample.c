@@ -32,6 +32,7 @@ void printtree_rec(treenode *root, int level)
 {
     if (root == NULL)
     {
+        // if no value print empty
         printtabs(level);
         printf("---<empty>--\n");
         return;
