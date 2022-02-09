@@ -42,11 +42,11 @@ void printtree_rec(treenode *root, int level)
     printf("value = %d\n", root->value);
     printtabs(level);
     printf("left\n");
-    // print the value of the edge
+    // print the value of the left edge
     printtree_rec(root->left, level + 1);
     printtabs(level);
     printf("right\n");
-    // print the value of the edge
+    // print the value of the right edge
     printtree_rec(root->right, level + 1);
 
     printtabs(level);
