@@ -42,7 +42,9 @@ int main()
 {
     int mm, dd, yy, days_left_to_add;
     printf("Please enter a date between the years 1800 and 10000 in the format mm dd yy and provide the number of days to add to this date:\n");
+    // checks for user input
     scanf("%d%d%d%d", &mm, &dd, &yy, &days_left_to_add);
     add_days_to_date(&mm, &dd, &yy, days_left_to_add);
+    // outputs the values from the user input
     printf("%d/%d/%d", mm, dd, yy);
 }
