@@ -52,7 +52,7 @@ void printtree_rec(treenode *root, int level)
     printtabs(level);
     printf("done\n");
 }
-
+// func to print the tree through recursion
 void printtree(treenode *root)
 {
     printtree_rec(root, 0);
