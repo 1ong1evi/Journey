@@ -21,3 +21,5 @@ Here you will find projects I will work on while sharpening my programming skill
 - Hardcoded Linked List
 - Linked List
 - Tree
+
+# Projects in Python
