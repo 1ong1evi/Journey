@@ -3,7 +3,7 @@
 Levi Long
 Here you will find projects I will work on while sharpening my programming skills.
 
-# Projects in Javascript
+# Projects in JavaScript
 
 - Number Guesser
 - Lodash library practice
