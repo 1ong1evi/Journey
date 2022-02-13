@@ -1,16 +1,17 @@
 # Journey
 
-Levi Long
+## Levi Long
+
 Here you will find projects I will work on while sharpening my programming skills.
 
-# Projects in JavaScript
+### Projects in JavaScript
 
 - Number Guesser
 - Lodash library practice
 - Build a library
 - School catalouge
 
-# Projects in C
+### Projects in C
 
 - Dates and switches
 - FizzBuzz
@@ -22,4 +23,4 @@ Here you will find projects I will work on while sharpening my programming skill
 - Linked List
 - Tree
 
-# Projects in Python
+### Projects in Python
