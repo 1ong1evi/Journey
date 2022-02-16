@@ -26,6 +26,7 @@ def add_attraction(destination, attraction):
     return
 
 
+# attractions to iterate through
 add_attraction("Los Angeles, USA", ['Venice Beach', ['beach']])
 add_attraction("Paris, France", ["the Louvre", ["art", "museum"]])
 add_attraction("Paris, France", ["Arc de Triomphe", [
