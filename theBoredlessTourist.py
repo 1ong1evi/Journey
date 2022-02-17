@@ -43,6 +43,8 @@ add_attraction("Cairo, Egypt", ["Pyramids of Giza", [
                "monument", "historical site"]])
 add_attraction("Cairo, Egypt", ["Egyptian Museum", ["museum"]])
 
+# inputs attraction ino attractions list
+
 
 def find_attractions(destination, interests):
     destination_index = get_destination_index(destination)
