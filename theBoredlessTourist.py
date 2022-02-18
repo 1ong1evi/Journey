@@ -18,6 +18,8 @@ def get_traveler_location(traveler):
 test_destination_index = get_traveler_location(test_traveler)
 attractions = [[] for attraction in destinations]
 
+# adds an attraction to list
+
 
 def add_attraction(destination, attraction):
     destination_index = get_destination_index(destination)
