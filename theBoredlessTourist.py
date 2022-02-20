@@ -63,6 +63,8 @@ def find_attractions(destination, interests):
 
 la_arts = find_attractions("Los Angeles, USA", ['art'])
 
+# creates the string and figures out attraction from said traveler
+
 
 def get_attractions_for_traveler(traveler):
     traveler_destination = traveler[1]
