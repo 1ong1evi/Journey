@@ -8,6 +8,8 @@ def get_destination_index(destination):
     destination_index = destinations.index(destination)
     return destination_index
 
+# gets the location of the traveler
+
 
 def get_traveler_location(traveler):
     traveler_destination = traveler[1]
