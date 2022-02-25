@@ -1,7 +1,7 @@
 # locations for the traveler to travel
 destinations = ["Paris, France", "Shanghai, China",
                 "Los Angeles, USA", "Sao Paulo, Brazil", "Cairo, Egypt"]
-
+# traveler with name, location, destinations
 test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
 
 # gets the destinations and indexs in the list
