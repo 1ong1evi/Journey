@@ -4,6 +4,8 @@ destinations = ["Paris, France", "Shanghai, China",
 
 test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
 
+# gets the destinations and indexs in the list
+
 
 def get_destination_index(destination):
     destination_index = destinations.index(destination)
