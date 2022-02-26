@@ -57,6 +57,7 @@ def find_attractions(destination, interests):
     destination_index = get_destination_index(destination)
     attractions_in_city = attractions[destination_index]
     attractions_with_interest = []
+    # loops through each attraction
     for attraction in attractions_in_city:
         possible_attraction = attraction
         attraction_tags = possible_attraction[1]
