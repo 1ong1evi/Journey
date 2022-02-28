@@ -1,4 +1,4 @@
-## Programming projects
+## Programming Languages
 
 ### JavaScript
 
