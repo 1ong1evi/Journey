@@ -80,6 +80,7 @@ def get_attractions_for_traveler(traveler):
     interests_string = "Hi " + \
         str(traveler[0]) + ", we think you'll like these places around " + \
         str(traveler_destination) + ": "
+    # loops through the len of list
     for i in range(len(traveler_attractions)):
         if traveler_attractions[-1] == traveler_attractions[i]:
             interests_string += "the " + traveler_attractions[i] + "."
