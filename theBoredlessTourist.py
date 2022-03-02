@@ -77,6 +77,7 @@ def get_attractions_for_traveler(traveler):
     traveler_interests = traveler[2]
     traveler_attractions = find_attractions(
         traveler_destination, traveler_interests)
+    # holds the string that will be printed with new lines
     interests_string = "Hi " + \
         str(traveler[0]) + ", we think you'll like these places around " + \
         str(traveler_destination) + ": "
