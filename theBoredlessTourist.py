@@ -28,6 +28,7 @@ attractions = [[] for attraction in destinations]
 
 def add_attraction(destination, attraction):
     destination_index = get_destination_index(destination)
+    # add each attraction to attractions
     attractions_for_destination = attractions[destination_index].append(
         attraction)
     return
