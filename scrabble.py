@@ -11,6 +11,8 @@ letter_to_points = {
 # blank tile
 letter_to_points[" "] = 0
 
+# func to score the word to a point_total
+
 
 def score_word(word):
     point_total = 0
