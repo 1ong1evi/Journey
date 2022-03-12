@@ -95,5 +95,6 @@ def get_attractions_for_traveler(traveler):
 """ TESTING CASE DEREK SMILL
 smills_france = get_attractions_for_traveler(
     ['Dereck Smill', 'Paris, France', ['monument']])
+    # prints "Hi Dereck Smill, we think you'll like these places around Paris, France: the Arc de Triomphe."
 print(smills_france)
 """
