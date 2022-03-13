@@ -8,7 +8,7 @@ letter_to_points = {
     for key, value
     in zip(letters, points)
 }
-# blank tile
+# blank tile value of zero
 letter_to_points[" "] = 0
 
 # func to score the word to a point_total
