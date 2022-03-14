@@ -20,6 +20,7 @@ def get_traveler_location(traveler):
     return traveler_destination_index
 
 
+# uses list comprehension to loop through destinations
 test_destination_index = get_traveler_location(test_traveler)
 attractions = [[] for attraction in destinations]
 
