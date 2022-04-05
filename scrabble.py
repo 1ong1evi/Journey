@@ -7,6 +7,7 @@ points = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1,
 letter_to_points = {
     key: value
     for key, value
+    # Returns a single iterator object, having mapped values from all the containers.
     in zip(letters, points)
 }
 # blank tile value of zero
