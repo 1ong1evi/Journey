@@ -26,7 +26,7 @@ def score_word(word):
 # creates players to run the program
 player_to_words = {"player1": ["BLUE", "TENNIS", "EXIT"], "wordNerd": ["EARTH", "EYES", "MACHINE"], "Lexi Con": [
     "ERASER", "BELLY", "HUSKY"], "Prof Reader": ["ZAP", "COMA", "PERIOD"]}
-
+# prints score
 player_to_points = {}
 # loop to add up the score
 for key, value in player_to_words.items():
