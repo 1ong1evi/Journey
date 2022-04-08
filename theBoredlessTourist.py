@@ -24,7 +24,7 @@ def get_traveler_location(traveler):
 test_destination_index = get_traveler_location(test_traveler)
 attractions = [[] for attraction in destinations]
 
-# adds an attraction to list
+# adds an attraction to lists
 
 
 def add_attraction(destination, attraction):
