@@ -34,6 +34,19 @@ class LinkedList:
                 current_node = current_node.get_next_node()
         return stringfy
 
+    def remove_node(self, value_to_remove):
+        current_node = self.get_head_node()
+        if current_node.get_value() == value_to_remove:
+            self.head_node = current_node.get_next_node()
+        else:
+            while current_node:
+                next_node = current_node.get_next_node()
+                if next_node.get_value() == value_to_remove:
+                    current_node.set_next_node(next_node.get_next_node())
+                    current_node = None
+                else:
+                    current_node = next_node
+
     def swap_nodes(self, val1, val2):
         print(f'Swapping {val1} with {val2}')
 
