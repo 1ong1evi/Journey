@@ -26,3 +26,4 @@ Projects/Concepts I use to study
 - The Boredless Tourist
 - Scrabble
 - Singly Linked List
+- Doubly Linked List
