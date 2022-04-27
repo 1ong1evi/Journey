@@ -6,3 +6,6 @@ class Node:
 
     def get_value(self):
         return self.value
+
+    def get_prev_node(self):
+        return self.prev_node
