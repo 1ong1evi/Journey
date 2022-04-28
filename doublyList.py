@@ -9,3 +9,6 @@ class Node:
 
     def get_prev_node(self):
         return self.prev_node
+
+    def get_next_node(self):
+        return self.next_node
