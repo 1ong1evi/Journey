@@ -12,3 +12,6 @@ class Node:
 
     def get_next_node(self):
         return self.next_node
+
+    def set_prev_node(self, prev_node):
+        self.prev_node = prev_node
