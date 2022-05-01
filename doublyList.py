@@ -18,3 +18,7 @@ class Node:
 
     def set_next_node(self, next_node):
         self.next_node = next_node
+
+
+class DoublyLinkedList:
+    pass
