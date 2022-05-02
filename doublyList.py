@@ -21,4 +21,6 @@ class Node:
 
 
 class DoublyLinkedList:
-    pass
+    def __init__(self):
+        self.head_node = None
+        self.tail_node = None
