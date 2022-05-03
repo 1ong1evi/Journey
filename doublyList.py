@@ -24,3 +24,16 @@ class DoublyLinkedList:
     def __init__(self):
         self.head_node = None
         self.tail_node = None
+
+    def add_to_head(self, new_value):
+        new_head = Node(new_value)
+        current = self.head_node
+
+        if current != None:
+            current.set_prev_node(new_head)
+            new_head.set_next_node(current)
+
+        self.head_node = new_head
+
+        if self.tail_node == None:
+            self.tail_node = new_head
