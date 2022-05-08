@@ -66,3 +66,19 @@ class DoublyLinkedList:
             return self.remove_tail()
 
         return removed_head.get_value()
+
+    def remove_tail(self):
+        removed_tail = self.tail_node
+
+        if removed_tail == None:
+            return None
+
+        self.tail_node = removed_tail.get_prev_node()
+
+        if self.tail_node != None:
+            self.tail_node.set_prev_node(None)
+
+        if removed_tail == self.head_node:
+            return self.remove_head()
+
+        return removed_tail.get_value()
