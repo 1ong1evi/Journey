@@ -82,3 +82,6 @@ class DoublyLinkedList:
             return self.remove_head()
 
         return removed_tail.get_value()
+
+    def removed_by_value(self, value_to_remove):
+        pass
