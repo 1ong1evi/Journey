@@ -27,3 +27,4 @@ Projects/Concepts I use to study
 - Scrabble
 - Singly Linked List
 - Doubly Linked List
+- Stack
