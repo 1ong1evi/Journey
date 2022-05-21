@@ -18,3 +18,12 @@ class Stack:
         self.top_item = None
         self.size = 0
         self.limit = limit
+
+    def push(self, value):
+        if self.has_space():
+            item = Node(value)
+            item.set_next_node(self.top_item)
+            self.top_item = item
+            self.size += 1
+        else:
+            print("All out of space!")
