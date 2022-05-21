@@ -14,4 +14,7 @@ class Node:
 
 
 class Stack:
-    pass
+    def __init__(self, limit=10000):
+        self.top_item = None
+        self.size = 0
+        self.limit = limit
