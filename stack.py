@@ -27,3 +27,6 @@ class Stack:
             self.size += 1
         else:
             print("All out of space!")
+
+    def pop():
+        pass
