@@ -35,4 +35,5 @@ class Stack:
             self.top_item = item
             self.size += 1
         else:
-            print("All out of space!") 
+            print("All out of space!")
+            # runs if it is out of space
