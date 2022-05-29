@@ -36,4 +36,11 @@ class Stack:
             self.size += 1
         else:
             print("All out of space!")
-            # runs if it is out of space
+    
+    def peek(self):
+        if self.size > 0:
+            return self.top_item.get_value()
+        else:
+            print("Nothing to see here!")
+    
+    
