@@ -43,4 +43,5 @@ class Stack:
         else:
             print("Nothing to see here!")
     
-    
+    def has_space(self):
+        return self.limit > self.size
