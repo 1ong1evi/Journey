@@ -45,3 +45,6 @@ class Stack:
     
     def has_space(self):
         return self.limit > self.size
+
+    def is_empty(self):
+        return self.size == 0
