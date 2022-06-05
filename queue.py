@@ -3,3 +3,6 @@ class Node:
         self.value = value
         self.next_node = next_node
         self.prev_node = prev_node 
+
+    def get_value(self):
+        return self.value
