@@ -14,4 +14,8 @@ class Node:
         self.next_node = next_node
 
 class Queue:
-    pass
+    def __init__(self, max_size=None):
+        self.head = None
+        self.tail = None
+        self.max_size = max_size
+        self.size = 0
