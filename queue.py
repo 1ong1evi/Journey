@@ -19,3 +19,6 @@ class Queue:
         self.tail = None
         self.max_size = max_size
         self.size = 0
+    
+    def enqueue(self, value):
+        pass
