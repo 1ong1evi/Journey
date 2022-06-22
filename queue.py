@@ -51,3 +51,5 @@ class Queue:
     def peek(self):
         if self.size > 0:
             return self.head.get_value()
+        else:
+            print("No orders waiting!")
