@@ -53,3 +53,7 @@ class Queue:
             return self.head.get_value()
         else:
             print("No orders waiting!")
+    
+    def is_empty(self):
+        pass
+    
