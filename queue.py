@@ -55,5 +55,6 @@ class Queue:
             print("No orders waiting!")
     
     def is_empty(self):
-        pass
+        return self.size == 0
+        
     
