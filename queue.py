@@ -66,6 +66,4 @@ class Queue:
         else:
             return self.max_size > self.get_size()
 
-#test
-#test
     
