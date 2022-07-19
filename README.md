@@ -28,3 +28,4 @@ Projects/Concepts I use to study
 - Singly Linked List
 - Doubly Linked List
 - Stack
+- Queue
