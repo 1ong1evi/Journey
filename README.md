@@ -29,3 +29,4 @@ Projects/Concepts I use to study
 - Doubly Linked List
 - Stack
 - Queue
+- Bubble Sort
