@@ -1,3 +1,4 @@
+# swap function isnt needed in this bubble sort but still is implemented
 def swap(arr, index_1, index_2):
     temp = arr[index_1]
     arr[index_1] = arr[index_2]
@@ -12,3 +13,4 @@ def bubble_sort(arr):
             if arr[idx] > arr[idx + 1]:
                 # replacement for the swap function above
                 arr[idx], arr[idx + 1] = arr[idx + 1], arr[idx]
+
